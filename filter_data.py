@@ -12,6 +12,3 @@ def filter_data(start_year, end_year, country):
     
     with open('filtered_data.json', 'w') as f:
         json.dump(filtered, f)
-
-if __name__ == "__main__":
-    filter_data(2000, 2024, 'USA')  # Example usage
